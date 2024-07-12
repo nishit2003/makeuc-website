@@ -2,13 +2,10 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll": "explicit"
   },
   "files.associations": {
     "*.css": "postcss"
   },
-  "eslint.workingDirectories": [
-    "./client",
-    "./server"
-  ],
+  "eslint.workingDirectories": ["./client", "./server"]
 }
